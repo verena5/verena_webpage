@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+
+h1{
+font-size:35px; 
+font-family:Arial; 
+color:palevioletred;
+background-color:rgb(214, 172, 198)
+}
+
+.大標題｛
+color:red;   
+}
+
+body{background-color:black;}
+
+/* *{
+box-sizing: border-box; 
+padding: 0; 
+margin: 0;
+} */
+.home{
+    width: 50%;
+    height: 100vh;
+    background-image: url('2W Jasper 2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-me{
+    windows: 100%;
+    height: 100vh; 
+    background-color: blueviolet
+    display: flex; 
+}
+.left{
+    height: 100px; 
+    width: 50%;
+    background-color: antiquewhite
+}
+.right{
+    height: 100px;
+    width: 50%;  
+    background-color: aqua
+}
+.contact{
+    width: 100%; 
+    height: 100vh; 
+    background-color: azure
+}
