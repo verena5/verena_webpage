@@ -8,7 +8,7 @@ body {
   font-family: "Noto Sans TC", sans-serif;
 }
 .home {
-    background-image: url("ice.jpg");
+    background-image: url("ice.JPG");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ body {
   }
   .left {
     flex: 1;
-    background-image: url("teach.jpg");
+    background-image: url("teach.JPG");
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -40,7 +40,7 @@ body {
   
   .middle {
     flex: 1;
-    background-image: url("team.jpg");
+    background-image: url("team.JPG");
     background-size: cover;
     background-position: center;
     border-radius: 50%;
