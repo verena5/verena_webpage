@@ -1,51 +1,102 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
-
-h1{
-font-size:35px; 
-font-family:Arial; 
-color:palevioletred;
-background-color:rgb(214, 172, 198)
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,700&display=swap&subset=chinese-traditional");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.大標題｛
-color:red;   
+body {
+  font-family: "Noto Sans TC", sans-serif;
 }
-
-body{background-color:black;}
-
-/* *{
-box-sizing: border-box; 
-padding: 0; 
-margin: 0;
-} */
-.home{
-    width: 50%;
-    height: 100vh;
-    background-image: url('2W Jasper 2.jpg'); 
+.home {
+    background-image: url("ice.jpg");
     background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    height: 700px
+  }
+.home h1 {
+    color: green;
 }
-.about-me{
-    windows: 100%;
-    height: 100vh; 
-    background-color: blueviolet
-    display: flex; 
-}
-.left{
-    height: 100px; 
-    width: 50%;
-    background-color: antiquewhite
-}
-.right{
-    height: 100px;
-    width: 50%;  
-    background-color: aqua
-}
-.contact{
-    width: 100%; 
-    height: 100vh; 
-    background-color: azure
-}
+  .content {
+    display: flex;
+    background-color: beige; 
+    height: 200px;
+  }
+  .left {
+    flex: 1;
+    background-image: url("teach.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    /* width: 50%;
+    height: 100%;
+    background-image: url("my-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px */
+  }
+  
+  .middle {
+    flex: 1;
+    background-image: url("team.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    /* width: 50%;
+    height: 100%;
+    background-image: url("my-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px */
+  }
+  .right {
+    flex: 1;
+    background-image: url("group.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    /* width: 50%;
+    height: 500px;
+    background-color: #222222;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 250%; */
+  }
+  .about-me {
+      opacity: 30%;
+      background-color: rgba(219, 55, 178, 0.336);
+      display: flex;
+      justify-content: center;
+    }
+
+  .contact {
+    background-color: rgb(74, 68, 92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-content a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 22px;
+    text-decoration: none;
+    opacity: 0.7;
+    margin: 10px;
+    color: #ffffff;
+  }
+  .contact-content img {
+    margin: 10px;
+  }
+  
