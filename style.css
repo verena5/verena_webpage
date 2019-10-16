@@ -21,7 +21,7 @@ body {
 }
   .content {
     display: flex;
-    background-color: beige; 
+    background-color: rgb(148, 189, 129); 
     height: 200px;
   }
   .left {
@@ -68,7 +68,7 @@ body {
   }
   .about-me {
       opacity: 30%;
-      background-color: rgba(219, 55, 178, 0.336);
+      background-color: rgba(25, 14, 88, 0.336);
       display: flex;
       justify-content: center;
     }
